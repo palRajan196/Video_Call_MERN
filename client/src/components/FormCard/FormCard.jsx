@@ -18,6 +18,7 @@ const FormCard = () => {
 
   const { name, setName, myUserId, callUser, isCallAccepted } =
     useContext(VideoCallContext);
+    console.log(myUserId);
 
   return (
     <>
